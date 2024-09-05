@@ -29,8 +29,8 @@ const createOrder = async (req, res) => {
         // return_url: "http://localhost:5173/shop/paypal-return",
         // cancel_url: "http://localhost:5173/shop/paypal-cancel",
 
-        return_url: "https://agro-services-hp5d.onrender.com/shop/paypal-return",
-         cancel_url: "https://agro-services-hp5d.onrender.com/shop/paypal-cancel",
+        return_url: "https://agro-services-sigma.vercel.app/shop/paypal-return",
+         cancel_url: "https://agro-services-sigma.vercel.app/shop/paypal-cancel",
         
       },
       transactions: [
