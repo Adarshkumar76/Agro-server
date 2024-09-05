@@ -27,7 +27,7 @@ const PORT = process.env.PORT || 5000;
 app.use(
   cors({
     // origin: "http://localhost:5173",
-    origin: "https://agro-services-sigma.vercel.app",
+    origin: "https://66da057ab00b1b72f7d31e5a--serene-belekoy-1bcded.netlify.app",
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
