@@ -26,8 +26,12 @@ const createOrder = async (req, res) => {
         payment_method: "paypal",
       },
       redirect_urls: {
-        return_url: "http://localhost:5173/shop/paypal-return",
-        cancel_url: "http://localhost:5173/shop/paypal-cancel",
+        // return_url: "http://localhost:5173/shop/paypal-return",
+        // cancel_url: "http://localhost:5173/shop/paypal-cancel",
+
+        return_url: "https://agro-services-hp5d.onrender.com/shop/paypal-return",
+         cancel_url: "https://agro-services-hp5d.onrender.com/shop/paypal-cancel",
+        
       },
       transactions: [
         {
