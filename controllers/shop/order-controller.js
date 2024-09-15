@@ -29,8 +29,8 @@ const createOrder = async (req, res) => {
         // return_url: "http://localhost:5173/shop/paypal-return",
         // cancel_url: "http://localhost:5173/shop/paypal-cancel",
 
-        return_url: "https://serene-belekoy-1bcded.netlify.app/shop/paypal-return",
-        cancel_url: "https://serene-belekoy-1bcded.netlify.app/shop/paypal-cancel",
+        return_url: "https://agro-services.netlify.app/shop/paypal-return",
+        cancel_url: "https://agro-services.netlify.app/shop/paypal-cancel",
         
       },
       transactions: [
